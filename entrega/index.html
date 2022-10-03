@@ -5,25 +5,134 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PuntAR</title>
+    <!-- Conectar con CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
-    <header>
-        <div class="flex-img">
-                <img src="/entrega/22886b0b999f436a99e29862324208fc.png" alt="Logo">
+    <header id="inicio">
+        <div class="logo">
+            <img src="/assets/logo.png" alt="Logo" class="logo-img">
         </div>
-        <nav class="flex-nav">
-            <div class="flex-ul">
-                <ul class="flex-list">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Peliculas</a></li>
-                    <li><a href="#">Series</a></li>
-                    <li><a href="#">Ranking</a></li>
-                </ul>
-            </div>
-        </nav>
+
+        <div class="flex-nav">
+            <nav class="navbar">
+                    <ul class="navbar-list">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#propuesta">Propuesta</a></li>
+                        <li><a href="#ventajas">Ventajas</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+            </nav>
+        </div>
+
+        <div class="flex-carrito">
+            <img src="/assets/carrito.png" alt="Carrito" class="carrito">
+        </div>
     </header>
-    
+
+    <main>
+        <section id="hero">
+            <div class="movie-info">
+                <h2>Lorem, ipsum.</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae laboriosam sapiente voluptatibus doloremque. Eveniet <span>harum libero</span> commodi optio. Necessitatibus, <span>voluptatem</span>.</p>
+                
+                <div class="flex-buttons">
+                    <div class="hero-buttons">
+                        <a href="#propuesta">Read More</a>
+                        <a href="#propuesta">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="movie-poster">
+                <img src="/assets/undraw_reminder_re_fe15.svg" alt="Poster">
+            </div>
+        </section>
+    </main>
+
+    <section id="propuesta" class="text-middle">
+        <div>
+            <h3>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus vitae non explicabo labore in, possimus quia unde facere fuga. Eligendi.
+            </h3>
+        </div>
+            <img class="img-middle" src="/assets/undraw_team_up_re_84ok.svg" alt="img-middle">
+    </section>
+
+    <section id="ventajas" class="adv-section">
+        <div class="text-adv">
+            <h3>Nuestras Ventajas</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi, nemo?</p>
+        </div>
+        
+        <div class="cards">
+            <div class="info-cards">
+                <img src="/assets/undraw_bitcoin_re_urgq.svg" alt="">
+                <div>
+                    <h4>Benefit 1</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eius eaque ipsam aut fugit ratione.</p>
+                </div>
+            </div>
+                <div class="info-cards">
+                    <img src="/assets/undraw_speech_to_text_re_8mtf.svg" alt="">
+                    <div>
+                        <h4>Benefit 2</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eius eaque ipsam aut fugit ratione.</p>
+                    </div>
+                </div>
+
+                <div class="info-cards">
+                    <img src="/assets/undraw_react_re_g3ui.svg" alt="">
+                    <div>
+                        <h4>Benefit 3</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eius eaque ipsam aut fugit ratione.</p>
+                    </div>
+                </div>
+        </div>
+    </section>
+   
+   
+    <footer id="contacto">
+        <div class="footer-list">
+            <ul>
+                <li>
+                    <a href="#">Preguntas frecuentes</a>
+                </li>
+                <li>
+                    <a href="#">Politica de privacidad</a>
+                </li>
+                <li>
+                    <a href="#">Ayuda</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="social-flex">
+            <div class="social">
+                <h5>Redes</h5>
+                <div>
+                    <a href="#" class="">
+                        <img src="/assets/instagram.png" alt="instagram" class="social-img">
+                    </a>
+                    <a href="#">
+                        <img src="/assets/twitter.png" alt="" class="social-img">
+                    </a>
+                    <a href="#">
+                        <img src="/assets/facebook.png" alt="" class="social-img">
+                    </a>
+                </div>
+            </div>
+            <div class="copyright">
+                <h5>© 2022 by PuntuAr.com, Inc.</h5>
+            </div>
+        </div>
+
+        <div class="contact">
+            <p>Email: <a href="#">Lorem@gmail.com</a></p>
+            <p>Tel: <a href="#">+54-12345678</a></p>
+            <a href="#inicio"><img src="/assets/logo.png" alt="Logo" class="logo-img logo-clip"></a>
+        </div>
+    </footer>
 </body>
 </html>
